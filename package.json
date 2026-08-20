@@ -26,5 +26,9 @@
     "chai": "*",
     "chai-http": "*",
     "mocha": "*"
+  },
+  "overrides": {
+    "fast-xml-parser": "^4.5.4",
+    "form-data": "^4.0.4"
   }
 }
