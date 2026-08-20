@@ -39,7 +39,6 @@ pipeline {
                             --format \'ALL\' 
                             --disableYarnAudit \
                             --disableOssIndex \
-                            --disableNodeAudit \
                             --disableKnownExploited \
                             --data /var/lib/jenkins/owasp-db/data/ \
                             --prettyPrint''', odcInstallation: 'OWASP-DepCheck-12'
